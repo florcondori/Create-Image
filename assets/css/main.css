@@ -15,9 +15,34 @@ img{
 	text-align: center;
 }
 .contenedor-img{
+	position: relative;
 	box-shadow: 1px 2px 3px grey; 
 	display: inline-block;
 	width: 325px;
 	height: 350px;
 	margin: 0 10px 20px 10px;	
+}
+.div-abrir-venta{
+	position: absolute;
+	top: 7px;
+	right: 7px;
+	width: 25px;
+	height: 25px;
+	padding: 0;
+}
+.div-abrir-venta:hover{
+	cursor: pointer;
+}
+.ventana-medidas{
+	position: absolute;
+	top: 32px;
+	right: 7px;
+	display: none;
+	padding: 10px;
+	background: white;
+	z-index: 4;
+}
+.ventana-medidas input{
+	width: 35px;
+	
 }
